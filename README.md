@@ -5,6 +5,6 @@ API использует ```github.com/Knetic/govaluate``` для парсинг
 В текущей версии API поддерживает только вычисление значений математических 
 выражений многих переменных 
   - ```/MathExpressionEvaluate/MultyVar```,
-    JSON сообщения: ```{"mathExpression": "x+y", "variables": [{"x": 1, "y": 5}, {"x": 2, "y": 1}]}```,
-    JSON ответа: ```{"mathExpression": "x+y", "results": [6, 3]}```
+JSON сообщения: ```{"mathExpression": "x+y", "variables": [{"x": 1, "y": 5}, {"x": 2, "y": 1}]}```,
+JSON ответа: ```{"mathExpression": "x+y", "results": [6, 3]}```
   
